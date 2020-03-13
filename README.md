@@ -37,7 +37,7 @@ Application Options:
   -r, --ratelimit=     Ratelimit (requests per second) (default: 0)
   -z, --cache          If specified, DNS cache is enabled
   -e  --cache-size=    Cache size (in bytes). Default: 65536
-      --cache-min-ttl= Minimum TTL value for DNS entries, in seconds. Capped at 3600 seconds (1 hour).
+      --cache-min-ttl= Minimum TTL value for DNS entries, in seconds. Capped at 60 seconds (1 hour).
                        Artificially extending TTLs should only be done with careful consideration.
       --cache-max-ttl= Maximum TTL value for DNS entries, in seconds.
   -a, --refuse-any     If specified, refuse ANY requests

@@ -14,7 +14,7 @@ import (
 
 const (
 	defaultCacheSize = 64 * 1024 // in bytes
-	cacheMinTTLLimit = 60 * 60   // in seconds
+	cacheMinTTLLimit = 60   // in seconds
 )
 
 type cache struct {
